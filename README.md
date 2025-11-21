@@ -47,7 +47,10 @@ https://www.figma.com/design/kJyWnURwzVpx3tsA6NASB0/vyke?node-id=63-143&t=oemvi1
 
 🚀 Como Executar o Projeto
 
-Faça o download ou acesse o link abaixo:
+1. Faça o download 
+2. Abra o arquivo index.html diretamente no navegador.
+3. ou acesse o link abaixo: 
+https://wallisonrds.github.io/Vyke-tarnished
 
 🧑‍💻 Autor
 
