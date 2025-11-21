@@ -1,0 +1,261 @@
+body {
+  background-color: var(--bg-primary);
+  position: relative;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* inicio header */
+.header-bg {
+  background-color: var(--bg-secondary);
+  max-width: 200px;
+  height: 100vh;
+  position: fixed;
+}
+
+.imagem-vyke {
+  padding: 20px 50px 20px 50px;
+
+  transition: transform 0.3s ease;
+}
+
+.imagem-vyke:hover {
+  transform: scale(1.1);
+}
+
+.aside-nav {
+  border-top: 2px solid var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding-top: 20px;
+  align-items: center;
+}
+
+.aside-nav li {
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+  background-color: var(--bg-secondary);
+  width: 100%;
+}
+
+.aside-nav li:hover {
+  background-color: var(--primary-color);
+}
+
+.aside-nav li a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: var(--title-content);
+}
+
+/* Fim header */
+
+/* inicio Intro */
+.intro-title h1 {
+  color: var(--title-content);
+  font: 700 2.25rem var(--font-cormorant);
+  padding-top: 30px;
+  text-transform: uppercase;
+}
+
+.intro-title h1:before {
+  content: "";
+  width: 60px;
+  height: 5px;
+  background-color: var(--primary-color);
+  display: block;
+  margin-bottom: 5px;
+}
+
+.intro-title p {
+  color: var(--text-primary);
+  font: 500 0.875rem var(--font-inter);
+}
+
+.intro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 80px;
+  gap: 40px;
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: 80px;
+}
+
+.intro-img img {
+  display: block;
+  justify-self: center;
+}
+
+.intro-info {
+  max-width: 480px;
+}
+
+.intro-title {
+  grid-column: 1/-1;
+}
+
+.intro-info h2 {
+  font: 700 4rem var(--font-cormorant);
+  color: var(--primary-color);
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.intro-info span {
+  font: 700 1.5rem var(--font-cormorant);
+  color: #5a4b2c;
+  font-style: italic;
+}
+.intro-info small {
+  font: 700 1rem var(--font-cormorant);
+  color: var(--secondary-color);
+  font-style: italic;
+}
+
+.intro-info p {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  font: 400 1rem var(--font-inter);
+  color: var(--text-primary);
+  line-height: 2;
+}
+
+.intro-info .span-primary {
+  color: var(--primary-color);
+  font: 400 1rem var(--font-inter);
+}
+
+.intro-info .span-secondary {
+  color: var(--secondary-color);
+  font: 400 1rem var(--font-inter);
+}
+
+.intro-info a {
+  font: 700 1.25rem var(--font-inter);
+  background: linear-gradient(180deg, var(--primary-color), #72541a);
+  padding: 16px 32px;
+  border-radius: 8px;
+  color: var(--bg-primary);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.intro-info a:hover {
+  background: linear-gradient(180deg, var(--primary-color), #af8329);
+}
+
+/* Fim intro */
+
+/* Inicio Lore */
+.cards-lore {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 24px;
+}
+
+.card-lore {
+  width: 360px;
+  height: auto;
+  border: 1px solid #c6932f;
+  border-radius: 8px;
+  padding: 30px;
+  margin-block: 80px;
+  background-color: var(--bg-secondary);
+}
+
+.card-lore h2 {
+  font: 700 1.5rem var(--font-cormorant);
+  color: var(--primary-color);
+  text-transform: uppercase;
+  padding-top: 30px;
+}
+
+.card-lore p {
+  padding-top: 30px;
+  font: 500 1rem var(--font-inter);
+  color: var(--text-primary);
+  line-height: 1.8;
+  letter-spacing: 1.2px;
+}
+
+.lore-nota {
+  padding: 40px;
+  background-color: #1d1d1d;
+  margin-bottom: 60px;
+  position: relative;
+}
+.lore-nota:before {
+  content: "";
+  width: 4px;
+  height: 116px;
+  background-color: var(--primary-color);
+  display: block;
+  left: 0px;
+  bottom: 0px;
+  position: absolute;
+}
+
+.lore-nota p {
+  font: 500 0.875rem var(--font-inter);
+  color: #9c8f7a;
+}
+/* fim  Lore */
+/* inicio  localizacao */
+#localizacao {
+  padding-block: 30px 60px;
+  border-top: 2px solid var(--primary-color);
+}
+
+.mapas h1 {
+  font: 700 1.5rem var(--font-cormorant);
+  color: var(--primary-color);
+  margin-block: 30px 20px;
+  text-transform: uppercase;
+}
+
+.mapas img {
+  display: block;
+}
+
+.mapas p {
+  font: 500 1rem var(--font-inter);
+  color: var(--text-primary);
+  margin-top: 30px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.mapas ul {
+  padding-left: 20px;
+}
+
+.mapas ul li {
+  font: 500 1rem var(--font-inter);
+  color: var(--secondary-color);
+  margin-bottom: 10px;
+}
+
+.mapas ul li::marker {
+  color: var(--secondary-color);
+}
+/* fim  localizacao */
+
+/* inicio footer */
+footer p {
+  background-color: var(--bg-secondary);
+  text-align: center;
+  font: 400 3rem var(--font-inter);
+  color: var(--title-content);
+  padding: 36px;
+}
+footer p .span-primary {
+  font: 400 3rem var(--font-cormorant);
+}
+/* Fim footer */

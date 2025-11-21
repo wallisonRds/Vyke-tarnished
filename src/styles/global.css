@@ -1,0 +1,33 @@
+:root {
+  --primary-color: #c58e33;
+  --secondary-color: #cb5f00;
+
+  --title-content: #ffffff;
+  --text-primary: #c5c6c7;
+
+  --bg-primary: #0e0e0e;
+  --bg-secondary: #141414;
+
+  --font-cormorant: "Cormorant Garamond", serif;
+  --font-inter: "Inter", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.span-primary {
+  color: var(--primary-color);
+  font: 400 1rem var(--font-inter);
+}
+
+.span-secondary {
+  color: var(--secondary-color);
+  font: 400 1rem var(--font-inter);
+}
+
+main {
+  margin-left: 200px; /* empurra tudo para a direita */
+  width: calc(100% - 200px);
+}
